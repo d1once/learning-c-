@@ -34,6 +34,58 @@ double e = Math.Min(x, y);
 Console.WriteLine(e);
 */
 
+/*Random Numbers
+Random random = new Random();
+
+int num1 = random.Next(1, 7);
+int num2 = random.Next(1, 7);
+int num3 = random.Next(1, 7);
+Console.WriteLine(num1);
+Console.WriteLine(num2);
+Console.WriteLine(num3);
+*/
+
+/*Hypotenuse Calculator
+Console.WriteLine("Please enter A side");
+double A = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Please enter B side");
+double B = Convert.ToDouble(Console.ReadLine());
+double C = Math.Sqrt((A * A) + (B * B));
+Console.WriteLine($"The Hypotenuse is {C}");
+*/
+
+/*Strings Methods
+string fullName = "Dionis Senja";
+Console.WriteLine(fullName.ToUpper());
+Console.WriteLine(fullName.ToLower());
+fullName = fullName.Insert(0, "Mr.");
+Console.WriteLine(fullName);
+
+string phoneNumber = "123-465-7890";
+phoneNumber = phoneNumber.Replace("-", "");
+Console.WriteLine(phoneNumber);
+*/
+
+/* If Statements
+Console.WriteLine("Please enter your name: ");
+String name = Console.ReadLine();
+
+if (name == "")
+{
+    Console.WriteLine("You did not enter your name!");
+}
+else
+{
+    Console.WriteLine("Hello " + name);
+}
+*/
+
+
+
+
+
+ 
+
 
 
 
