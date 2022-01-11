@@ -352,6 +352,19 @@ while (playAgain)
             Console.WriteLine("Bye!");
             */
 
+/*Arrays
+// String[] cars = {"BMW", "Mustang", "Corvette"};
+String[] cars = new string[3];
+cars[0] = "Tesla";
+cars[1] = "Mustang";
+cars[2] = "Corvette";
+
+for (int i = 0; i < cars.Length; i++)
+{
+    Console.WriteLine(cars[i]);
+}
+*/
+
 
 
 
