@@ -365,7 +365,6 @@ for (int i = 0; i < cars.Length; i++)
 }
 */
 
-
 /*Foreach loop
    // foreach loop = a simpler way to iterate over an array, but it's less flexible
 
@@ -375,6 +374,28 @@ for (int i = 0; i < cars.Length; i++)
             {
                 Console.WriteLine(car);
             }
+*/
+
+/*Methods
+// method  = performs a section of code, whenever it's called "invoked".
+//           benefit = Let's us reuse code w/o writing it multiple times
+
+String name = "Bro";
+int age = 21;
+
+SingHappyBirthday(name, age);
+
+Console.ReadKey();
+static void SingHappyBirthday(String birthdayBoy, int yearsOld)
+{
+    Console.WriteLine("Happy birthday to you!");
+    Console.WriteLine("Happy birthday to you!");
+    Console.WriteLine("Happy birthday dear " + birthdayBoy);
+    Console.WriteLine("You are " + yearsOld + " years old!");
+    Console.WriteLine("Happy birthday to you!");
+    Console.WriteLine();
+}
+
 */
 
 
