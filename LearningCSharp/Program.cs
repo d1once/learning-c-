@@ -398,4 +398,22 @@ static void SingHappyBirthday(String birthdayBoy, int yearsOld)
 
 */
 
+/*Return keyword
+
+Console.WriteLine("Enter first number");
+int x = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Enter second number");
+int y = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine(Multiply(x,y));
+
+static int Multiply(int a, int b)
+{
+    return a * b;
+}
+*/
+
+
+
 
