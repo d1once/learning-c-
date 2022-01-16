@@ -495,5 +495,15 @@ finally
 }
 */
 
+/*Ternary operator
+
+bool isRaining = false;
+String sentence = String.Empty;
+
+isRaining ? sentence = "Take an umbrella and FUCK OFF!" : sentence = "Go on freely buddy! :D";
+
+Console.WriteLine(sentence);
+*/
+
 
 
