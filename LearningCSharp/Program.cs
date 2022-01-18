@@ -505,5 +505,11 @@ isRaining ? sentence = "Take an umbrella and FUCK OFF!" : sentence = "Go on free
 Console.WriteLine(sentence);
 */
 
+/*String Interpolation
+String firstName = "Dionis";
+String lastName = "Senja";
+Console.WriteLine($"Hi my name is {firstName} {lastName}");
+*/
+
 
 
