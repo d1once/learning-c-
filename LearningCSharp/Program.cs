@@ -512,4 +512,15 @@ Console.WriteLine($"Hi my name is {firstName} {lastName}");
 */
 
 
+/*Multidimensional  Arrays 
+String[,] parkingLot = { {"Mustang", "F-150", "Explorer"},
+                         {"Corvette", "Camaro", "Silverado"},
+                        {"Corolla", "Camry", "Rav4"}
+                        };
+foreach(String car in parkingLot) {
+    Console.WriteLine(car);
+}
+*/
+
+
 
