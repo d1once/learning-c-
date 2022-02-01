@@ -757,3 +757,24 @@ class Boat : Vehicle
         int maxSpeed = 100;
     }
 */
+
+/*Array of objects
+Car[] garage = { new Car("Mustang"), new Car("Corvette"), new Car("Lambo") };
+
+foreach (Car car in garage)
+{
+  Console.WriteLine(car.model);
+}
+
+Console.ReadKey();
+
+class Car
+{
+  public String model;
+
+  public Car(String model)
+  {
+    this.model = model;
+  }
+}
+*/
