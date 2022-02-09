@@ -972,3 +972,14 @@ class Boat : Vehicle
             }
         } 
 */
+/*Lists
+
+List<String> food = new List<String>();
+
+food.Add("Pizza");
+food.Add("Burger");
+
+foreach (String item in food) {
+   Console.WriteLine(item);
+}
+*/
