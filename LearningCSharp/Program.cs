@@ -1020,3 +1020,25 @@ class Player {
             // set accessor = used to assign a new value
             // value keyword = defines the value being assigned by the set (parameter)
 */
+
+/*Auto implemented properties
+// Auto-Implemented properties =  shortcut when no additional logic is required in the property
+//                                you do not have to define a field for a property,
+//                                you only have to write get; and/or set; inside the property                             
+
+Car car = new Car("Porsche");
+
+Console.WriteLine(car.Model);
+
+Console.ReadKey();
+
+class Car
+{
+  public String Model { get; set; }
+
+  public Car(String model)
+  {
+    this.Model = model;
+  }
+}
+*/
