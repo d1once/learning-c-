@@ -1095,3 +1095,25 @@ class Car
         Pluto = 1188
     }
 */
+
+/*Generics
+
+// generic -> not specific to a particular data type.
+// add <T> to: classes, methods, fields, etc
+
+int[] intArray = {1,2,3};
+double[] doubleArray = {1.0, 2.0, 3.0};
+String[] stringArray = {"1", "2", "3"};
+
+displayElements(intArray);
+displayElements(doubleArray);
+displayElements(stringArray);
+
+static void displayElements<T>(T[] array){
+    foreach (T item in array)
+{
+    Console.WriteLine($"item ");
+}
+
+}
+*/
